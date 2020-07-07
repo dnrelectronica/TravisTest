@@ -5,3 +5,8 @@ compiler: gcc
 script:
     make
     
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+    
